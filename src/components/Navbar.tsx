@@ -4,10 +4,10 @@ export const Navbar = () => {
             <span className="text-2xl font-bold">EcoPortfolio</span>
         </div>
         <div className="gap-8 text-lg items-center hidden sm:flex">
-            <span className="cursor-pointer">Home</span>
-            <span className="cursor-pointer">Portfolio</span>
-            <span className="cursor-pointer">About</span>
-            <span className="cursor-pointer">Contact</span>
+            <span className="cursor-pointer hover:text-black">Home</span>
+            <span className="cursor-pointer hover:text-black">Portfolio</span>
+            <span className="cursor-pointer hover:text-black">About</span>
+            <span className="cursor-pointer hover:text-black">Contact</span>
         </div>
     </div>
 }
